@@ -1,0 +1,18 @@
+POST http://localhost:8080/produto
+Content-Type: application/json
+
+{
+  "id": 2,
+  "nome": "TESTE",
+  "descricao": "Teste",
+  "fotoUrl": "Teste",
+  "dataCadastro": "23/09/2021",
+  "dataUltimaAtualizacao": "23/09/2021",
+  "valorUnitario": 200.0
+}
+
+###
+GET http://localhost:8080/produto
+Accept: application/json
+
+###
