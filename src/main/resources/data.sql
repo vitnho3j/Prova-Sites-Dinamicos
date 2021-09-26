@@ -12,6 +12,9 @@ INSERT INTO produto(id, nome, descricao, fotoUrl, dataCadastro, dataUltimaAtuali
 VALUES (1, 'Vans Old Schol', 'Tênis da marca Vans', 'teste', '23/09/2021', '23/09/2021', 50.0, 2);
 
 INSERT INTO produto(id, nome, descricao, fotoUrl, dataCadastro, dataUltimaAtualizacao, valorUnitario, categoria)
+VALUES (4, 'Supra TK', 'Tênis da marca Supra', 'teste', '23/09/2021', '23/09/2021', 200.0, 2);
+
+INSERT INTO produto(id, nome, descricao, fotoUrl, dataCadastro, dataUltimaAtualizacao, valorUnitario, categoria)
 VALUES (2, 'Camisa', 'Camisa da marca da Nike', 'teste', '23/09/2021', '23/09/2021', 55.99, 1);
 
 INSERT INTO produto(id, nome, descricao, fotoUrl, dataCadastro, dataUltimaAtualizacao, valorUnitario, categoria)

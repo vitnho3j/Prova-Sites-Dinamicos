@@ -5,6 +5,5 @@ public class Categoria {
     private String imagemSimboloUrl;
     private String nome;
     private String descricao;
-    private Administrador administrador;
 
 }
