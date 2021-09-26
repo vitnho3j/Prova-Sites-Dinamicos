@@ -1,7 +1,9 @@
-GET http://localhost:8080/produto/Vans Old Schol
-Accept: application/json
-///BUSCA TODOS OS PRODUTOS PELO NOME MESMO QUE AS CATEGORIAS SEJAM DIFERENTES
+GET http://localhost:8080/produto/Casaco
+///RETORNA QUAL PRODUTO ESTÁ EM PROMOÇÃO
 ###
+
+
+//CRIA UM NOVO PRODUTO
 POST http://localhost:8080/produto
 Content-Type: application/json
 
@@ -14,6 +16,7 @@ Content-Type: application/json
   "dataUltimaAtualizacao": "23/09/2021",
   "valorUnitario": 200.0
 }
+
 
 ###
 GET http://localhost:8080/produto

@@ -31,7 +31,7 @@ public class ProdutoController {
 
     @GetMapping("/{nome}")
     public List<Produto> buscarTodosProdutosPorNome(@PathVariable("nome") String nome){
-        return ProdutoRepository.ListarTodosProdutosPorNome(nome);
+        return ProdutoRepository.VisualizarDadosProduto(nome);
     }
 
 }

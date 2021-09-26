@@ -11,6 +11,7 @@ public class CategoriaMapper implements RowMapper<Categoria> {
     @Override
     public Categoria mapRow(ResultSet resultSet, int i) throws SQLException {
         Categoria categoria = new Categoria();
+        Produto produto = new Produto();
         categoria.setId(resultSet.getInt("id"));
         categoria.setNome(resultSet.getNString("nome"));
         categoria.setDescricao(resultSet.getString("descricao"));

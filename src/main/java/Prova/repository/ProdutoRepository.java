@@ -39,4 +39,9 @@ public class ProdutoRepository {
         return jdbcTemplate.query("select * from produto where nome = ?", new Object[]{nome}, new ProdutoMapper());
     }
 
+    public List VisualizarDadosProduto(String nome){
+        return jdbcTemplate.query("select * from produto where produto.nome = ? and tabelaPromocaoItem.idPromocaoItem = promocaoItem.id and tabelaPromocaoItem.idTabelaPromocao = tabelaPromocao.id ", new Object[]{nome}, new ProdutoMapper());
+
+    }
+
 }

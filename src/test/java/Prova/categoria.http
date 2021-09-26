@@ -5,7 +5,7 @@ Accept: application/json
 ###
 GET http://localhost:8080/categoria/2/Supra TK
 Accept: application/json
-//BUSCA TODOS PRODUTOS PELO NOME INSERIDOS EM UMA CATEGORIA
+//BUSCA TODOS PRODUTOS INSERIDOS EM UMA CATEGORIA PELO NOME
 
 ###
 GET http://localhost:8080/categoria/2
