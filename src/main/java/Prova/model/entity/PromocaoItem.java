@@ -12,4 +12,5 @@ public class PromocaoItem {
     private TabelaPromocao tabelaPromocao;
     private Produto produto;
 
+
 }

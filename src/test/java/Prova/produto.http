@@ -1,3 +1,7 @@
+GET http://localhost:8080/produto/Vans Old Schol
+Accept: application/json
+///BUSCA TODOS OS PRODUTOS PELO NOME MESMO QUE AS CATEGORIAS SEJAM DIFERENTES
+###
 POST http://localhost:8080/produto
 Content-Type: application/json
 
@@ -14,5 +18,7 @@ Content-Type: application/json
 ###
 GET http://localhost:8080/produto
 Accept: application/json
+
+//BUSCA TODOS OS PRODUTOS
 
 ###

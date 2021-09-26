@@ -35,4 +35,8 @@ public class ProdutoRepository {
         throw new Exception("O produto não foi inserido com sucesso");
     }
 
+    public List<Produto> ListarTodosProdutosPorNome(String nome){
+        return jdbcTemplate.query("select * from produto where nome = ?", new Object[]{nome}, new ProdutoMapper());
+    }
+
 }

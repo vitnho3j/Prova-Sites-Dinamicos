@@ -1,3 +1,16 @@
+GET http://localhost:8080/categoria/1/Camisa/50
+Accept: application/json
+//BUSCA TODOS OS PRODUTOS PELO NOME E FAIXA DE VALOR (BETWEEN VALOR DO PRODUTO AND VALOR DO PRODUTO + 100)
+
+###
+GET http://localhost:8080/categoria/2/Supra TK
+Accept: application/json
+//BUSCA TODOS PRODUTOS PELO NOME INSERIDOS EM UMA CATEGORIA
+
+###
 GET http://localhost:8080/categoria/2
 Accept: application/json
+
+//BUSCA TODOS OS PRODUTOS DE UMA CATEGORIA
+
 

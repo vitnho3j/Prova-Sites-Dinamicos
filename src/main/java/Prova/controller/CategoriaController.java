@@ -27,8 +27,15 @@ public class CategoriaController {
     }
 
 
-    @GetMapping("/{id}")
-    public List<Produto> buscar
+    @GetMapping("/{id}/{nome}")
+    public List<Produto> buscarPorNomeProduto(@PathVariable("id") Integer id, @PathVariable("nome") String nome) {
+        return CategoriaRepository.listarTodosPorNome(id, nome);
+    }
+
+    @GetMapping("/{id}/{nome}/{valor}")
+    public List<Produto> buscarPorNome_Valor_Produto(@PathVariable("id") Integer id, @PathVariable("nome") String nome,  @PathVariable("valor") Float valor) {
+        return CategoriaRepository.listarTodosPorNomeValor(id, nome, valor);
+    }
 }
 
 

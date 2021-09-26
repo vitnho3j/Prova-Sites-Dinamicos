@@ -29,4 +29,9 @@ public class ProdutoController {
         return ProdutoRepository.inserir(produto);
     }
 
+    @GetMapping("/{nome}")
+    public List<Produto> buscarTodosProdutosPorNome(@PathVariable("nome") String nome){
+        return ProdutoRepository.ListarTodosProdutosPorNome(nome);
+    }
+
 }
