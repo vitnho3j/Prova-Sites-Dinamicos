@@ -1,5 +1,10 @@
+GET http://localhost:8080/produto/Camisa/50
+Accept: application/json
+//BUSCA TODOS OS PRODUTOS DENTRE A FAIXA DE VALOR DIGITADA
+
+###
 GET http://localhost:8080/produto/Casaco
-///RETORNA QUAL PRODUTO ESTÁ EM PROMOÇÃO
+///BUSCA UM PRODUTO PELO NOME
 ###
 
 

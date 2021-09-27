@@ -31,7 +31,12 @@ public class ProdutoController {
 
     @GetMapping("/{nome}")
     public List<Produto> buscarTodosProdutosPorNome(@PathVariable("nome") String nome){
-        return ProdutoRepository.VisualizarDadosProduto(nome);
+        return ProdutoRepository.ListarTodosProdutosPorNome(nome);
+    }
+
+    @GetMapping("/{nome}/{valor}")
+    public List<Produto> buscarTodosProdutosPorNome(@PathVariable("nome") String nome, @PathVariable("valor") Float valor){
+        return ProdutoRepository.listarTodosPorNomeValor(nome, valor);
     }
 
 }
